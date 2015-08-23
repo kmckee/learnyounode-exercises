@@ -1,9 +1,9 @@
-var directory = process.argv[2],
-    extensionFilter = process.argv[3],
-    ls = require('./myModule.js');
+var url = process.argv[2],
+    http = require('http');
 
-ls(directory, extensionFilter, function(err, matchingFiles) {
-    matchingFiles.forEach(function(matchingFile) {
-        console.log(matchingFile);
+http.get(url, function (response) {
+    response.setEncoding('utf8');
+    response.on('data', function(data) {
+        console.log(data);
     });
 });
