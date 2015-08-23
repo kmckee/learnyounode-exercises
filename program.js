@@ -1,10 +1,9 @@
-var fs = require('fs'),
-    path = require('path');
-fs.readdir(process.argv[2], function callback(err, dirs) {
-    dirs.forEach(function(file) {
-        var ext = path.extname(file);
-        if(ext == "." + process.argv[3]) {
-            console.log(file);
-        }
+var directory = process.argv[2],
+    extensionFilter = process.argv[3],
+    ls = require('./myModule.js');
+
+ls(directory, extensionFilter, function(err, matchingFiles) {
+    matchingFiles.forEach(function(matchingFile) {
+        console.log(matchingFile);
     });
 });
