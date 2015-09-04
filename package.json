@@ -1,0 +1,19 @@
+{
+  "name": "nodeschool-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmckee/learnyounode-exercises.git"
+  },
+  "author": "Kyle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmckee/learnyounode-exercises/issues"
+  },
+  "homepage": "https://github.com/kmckee/learnyounode-exercises#readme"
+}
