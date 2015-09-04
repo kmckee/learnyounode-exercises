@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/kmckee/learnyounode-exercises/issues"
   },
-  "homepage": "https://github.com/kmckee/learnyounode-exercises#readme"
+  "homepage": "https://github.com/kmckee/learnyounode-exercises#readme",
+  "dependencies": {
+    "strftime": "^0.9.2",
+    "through2-map": "^2.0.0"
+  }
 }
