@@ -5,8 +5,10 @@ function parseSync() {
     return JSON.parse(json);
 }
 
-Q.fcall(parseSync)
+q.fcall(parseSync)
 .then(
         function() { console.log('success??'); }, 
         console.log
 );
+
+
