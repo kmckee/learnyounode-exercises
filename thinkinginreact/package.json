@@ -1,0 +1,24 @@
+{
+  "name": "thinkinginreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.3"
+  },
+  "dependencies": {
+    "babel": "^5.8.35",
+    "babel-register": "^6.7.2",
+    "express": "^4.13.4",
+    "express-react-views": "^0.10.0",
+    "node-notifier": "^4.5.0"
+  }
+}
